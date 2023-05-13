@@ -53,7 +53,7 @@ Skills
 My favorite skills
 
 .skills__title
-Frontend Developer 
+Full Stack Engineer 
 Web Designer
 
 .skills__name .skills__subtitle
