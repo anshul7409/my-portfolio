@@ -577,6 +577,8 @@
                   <textarea name="user_project" placeholder="write your project" id="contact-project" cols="30" rows="10" class="contact__form-input"></textarea>
                 </div>
 
+                <p class="contact__message" id="contact-message">Message</p>
+
                 <button type="submit" class="contact__button">
                    Submit <i class="ri-arrow-right-up-line"></i>  
                 </button>
@@ -588,7 +590,44 @@
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+       <div class="footer__container container">
+        <h1 class="footer__title">Anshul Rawat</h1>
+        <p>Fullstack Engineer</p>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li> 
+
+          <li>
+            <a href="#skills" class="footer__link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+           <a href="https://www.linkedin.com/in/anshul-rawat-b52109187/" target="_blank" class="footer__social-link">
+             <i class="ri-linkedin-box-line"></i>
+           </a>
+
+           <a href="https://github.com/anshul7409" target="_blank" class="footer__social-link">
+            <i class="ri-github-line"></i>
+           </a>
+
+           <a href="https://www.codingninjas.com/codestudio/profile/anshul037" target="_blank" class="footer__social-link">
+            <i class="ri-code-line"></i>
+           </a>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; Copyright anshul. All rights reserved
+        </span>
+       </div>
+    </footer>
 
     <!--========== SCROLL UP ==========-->
 
@@ -599,7 +638,7 @@
     <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== EMAIL JS ===============-->
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
   </body>
